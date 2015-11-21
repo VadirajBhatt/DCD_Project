@@ -46,18 +46,18 @@ All feature values are normalized and bounded within [-1,1].
 * **tBodyAccJerk_std___X** Standard deviation of jerk time signal of the body linear acceleration in the X direction  
 * **tBodyAccJerk_std___Y** Standard deviation of jerk time signal of the body linear acceleration in the Y direction  
 * **tBodyAccJerk_std___Z** Standard deviation of jerk time signal of the body linear acceleration in the Z direction  
-* **tBodyGyro_mean___X** Mean value of body gyroscope frequency signal in the X direction (afer Fast Fourier Transform)
-* **tBodyGyro_mean___Y** Mean value of body gyroscope frequency signal in the Y direction (afer Fast Fourier Transform)
-* **tBodyGyro_mean___Z** Mean value of body gyroscope frequency signal in the Z direction (afer Fast Fourier Transform)
-* **tBodyGyro_std___X** Standard deviation of body gyroscope frequency signal in the X direction (afer Fast Fourier Transform)
-* **tBodyGyro_std___Y** Standard deviation of body gyroscope frequency signal in the Y direction (afer Fast Fourier Transform)
-* **tBodyGyro_std___Z** Standard deviation of body gyroscope frequency signal in the Z direction (afer Fast Fourier Transform)
-* **tBodyGyroJerk_mean___X** Mean value of Jerk body gyroscope frequency signal in the X direction (afer Fast Fourier Transform and angular velocity)
-* **tBodyGyroJerk_mean___Y** Mean value of Jerk body gyroscope frequency signal in the Y direction (afer Fast Fourier Transform and angular velocity)
-* **tBodyGyroJerk_mean___Z** Mean value of Jerk body gyroscope frequency signal in the Z direction (afer Fast Fourier Transform and angular velocity)
-* **tBodyGyroJerk_std___X** Standard deviation of Jerk body gyroscope frequency signal in the X direction (afer Fast Fourier Transform and angular velocity)
-* **tBodyGyroJerk_std___Y** Standard deviation of Jerk body gyroscope frequency signal in the Y direction (afer Fast Fourier Transform and angular velocity)
-* **tBodyGyroJerk_std___Z** Standard deviation of Jerk body gyroscope frequency signal in the Z direction (afer Fast Fourier Transform and angular velocity)
+* **tBodyGyro_mean___X** Mean value of body gyroscope frequency signal in the X direction (after Fast Fourier Transform)
+* **tBodyGyro_mean___Y** Mean value of body gyroscope frequency signal in the Y direction (after Fast Fourier Transform)
+* **tBodyGyro_mean___Z** Mean value of body gyroscope frequency signal in the Z direction (after Fast Fourier Transform)
+* **tBodyGyro_std___X** Standard deviation of body gyroscope frequency signal in the X direction (after Fast Fourier Transform)
+* **tBodyGyro_std___Y** Standard deviation of body gyroscope frequency signal in the Y direction (after Fast Fourier Transform)
+* **tBodyGyro_std___Z** Standard deviation of body gyroscope frequency signal in the Z direction (after Fast Fourier Transform)
+* **tBodyGyroJerk_mean___X** Mean value of Jerk body gyroscope frequency signal in the X direction (after Fast Fourier Transform and angular velocity)
+* **tBodyGyroJerk_mean___Y** Mean value of Jerk body gyroscope frequency signal in the Y direction (after Fast Fourier Transform and angular velocity)
+* **tBodyGyroJerk_mean___Z** Mean value of Jerk body gyroscope frequency signal in the Z direction (after Fast Fourier Transform and angular velocity)
+* **tBodyGyroJerk_std___X** Standard deviation of Jerk body gyroscope frequency signal in the X direction (after Fast Fourier Transform and angular velocity)
+* **tBodyGyroJerk_std___Y** Standard deviation of Jerk body gyroscope frequency signal in the Y direction (after Fast Fourier Transform and angular velocity)
+* **tBodyGyroJerk_std___Z** Standard deviation of Jerk body gyroscope frequency signal in the Z direction (after Fast Fourier Transform and angular velocity)
 * **tBodyAccMag_mean** Mean value of the magnitude of body acceleration time signal calculated using the Euclidean norm
 * **tBodyAccMag_std** Standard deviation of the magnitude of body acceleration time signal calculated using the Euclidean norm
 * **tGravityAccMag_mean** Mean value of the magnitude of gravity acceleration time signal calculated using the Euclidean norm
@@ -80,12 +80,12 @@ All feature values are normalized and bounded within [-1,1].
 * **fBodyAccJerk_std___X** Standard deviation of body acceleration frequency domain signal in the X direction derived in time
 * **fBodyAccJerk_std___Y** Standard deviation of body acceleration frequency domain signal in the Y direction derived in time
 * **fBodyAccJerk_std___Z** Standard deviation of body acceleration frequency domain signal in the Z direction derived in time
-* **fBodyGyro_mean___X** Mean value of body gyroscope frequency domain signal in the X direction (afer Fast Fourier Transform)
-* **fBodyGyro_mean___Y** Mean value of body gyroscope frequency domain signal in the Y direction (afer Fast Fourier Transform)
-* **fBodyGyro_mean___Z** Mean value of body gyroscope frequency domain signal in the Z direction (afer Fast Fourier Transform)
-* **fBodyGyro_std___X** Standard deviation of body gyroscope frequency domain signal in the X direction (afer Fast Fourier Transform)
-* **fBodyGyro_std___Y** Standard deviation of body gyroscope frequency domain signal in the Y direction (afer Fast Fourier Transform)
-* **fBodyGyro_std___Z** Standard deviation of body gyroscope frequency domain signal in the Z direction (afer Fast Fourier Transform)
+* **fBodyGyro_mean___X** Mean value of body gyroscope frequency domain signal in the X direction (after Fast Fourier Transform)
+* **fBodyGyro_mean___Y** Mean value of body gyroscope frequency domain signal in the Y direction (after Fast Fourier Transform)
+* **fBodyGyro_mean___Z** Mean value of body gyroscope frequency domain signal in the Z direction (after Fast Fourier Transform)
+* **fBodyGyro_std___X** Standard deviation of body gyroscope frequency domain signal in the X direction (after Fast Fourier Transform)
+* **fBodyGyro_std___Y** Standard deviation of body gyroscope frequency domain signal in the Y direction (after Fast Fourier Transform)
+* **fBodyGyro_std___Z** Standard deviation of body gyroscope frequency domain signal in the Z direction (after Fast Fourier Transform)
 * **fBodyAccMag_mean** Mean value of the magnitude of body acceleration frequency domain signal calculated using the Euclidean norm
 * **fBodyAccMag_std** Standard deviation of the magnitude of body acceleration frequency domain signal calculated using the Euclidean norm
 * **fBodyBodyAccJerkMag_mean** Mean value of the magnitude of body acceleration frequency domain signal derived in time calculated using the Euclidean norm
